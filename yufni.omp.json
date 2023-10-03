@@ -92,7 +92,7 @@
             "invert_powerline": true,
             "powerline_symbol": "\ue0b2",
             "style": "powerline",
-            "template": " RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB",
+            "template": " RAM: {{ (div ((sub .PhysicalAvailableMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalAvailableMemory 1000000000.0) }}GB",
             "type": "sysinfo"
           },
           {
