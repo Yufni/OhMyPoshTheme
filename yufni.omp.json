@@ -134,6 +134,5 @@
       "foreground": "#f1184c",
       "template": "{{if .Root}}\u26a1 {{end}}\uebc9 "
     },
-    "version": 1,
-    "auto_upgrade": True
+    "version": 1
   }
