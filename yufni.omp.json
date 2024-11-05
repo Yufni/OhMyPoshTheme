@@ -1,5 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "http_timeout": 5000,
     "blocks": [
       {
         "alignment": "left",
